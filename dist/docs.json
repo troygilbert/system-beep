@@ -1,0 +1,25 @@
+{
+  "api": {
+    "name": "SystemBeepPlugin",
+    "slug": "systembeepplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "playBeep",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "playbeep"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
