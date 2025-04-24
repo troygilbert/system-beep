@@ -11,13 +11,6 @@
     "android/build.gradle",
     "dist/"
   ],
-  "exports": {
-      ".": {
-        "types": "./dist/index.d.ts",
-        "import": "./dist/plugin.mjs",
-        "require": "./dist/plugin.cjs"
-      }
-    },
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
     "verify:ios": "xcodebuild -scheme SystemBeep -destination generic/platform=iOS",
